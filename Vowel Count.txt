@@ -1,0 +1,9 @@
+function getCount(str) {
+  var vowelsCount = 0;
+  
+  // enter your majic here
+  for (const char of str){
+  if( char.match (/(a|i|e|o|u)/) ) {
+  vowelsCount++;
+  }
+}
